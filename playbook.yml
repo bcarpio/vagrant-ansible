@@ -1,5 +1,0 @@
-- hosts: all
-  sudo: yes
-  tasks:
-    - name: touch a file 
-      shell: touch /var/tmp/bcarpio
