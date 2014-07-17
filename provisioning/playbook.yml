@@ -3,3 +3,4 @@
   tasks:
     - name: touch a file 
       shell: touch /var/tmp/bcarpio
+    - include: apache.yml
