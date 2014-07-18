@@ -1,6 +1,6 @@
 - hosts: all
   sudo: yes
   tasks:
-    - name: touch a file 
-      shell: touch /var/tmp/bcarpio
-    - include: apache.yml
+    - include: apache2/apache2.yml
+  handlers:
+    - include: apache2/apache2-handlers.yml
