@@ -1,4 +1,4 @@
 - hosts: all
   sudo: yes
   roles:
-  - { role: apache2, mysql_host: '10.10.10.10'}
+    - apache2
