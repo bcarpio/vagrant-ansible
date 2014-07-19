@@ -1,3 +1,4 @@
 - hosts: all
   sudo: yes
-- include: apache2/playbook.yml
+  roles:
+  - { role: apache2, mysql_host: '10.10.10.10'}

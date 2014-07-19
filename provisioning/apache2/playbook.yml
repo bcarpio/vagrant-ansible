@@ -1,6 +1,0 @@
-- hosts: all
-  sudo: yes
-  tasks:
-    - include: apache2.yml
-  handlers:
-    - include: apache2-handlers.yml
